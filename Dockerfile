@@ -8,11 +8,11 @@
 FROM php:7.4-apache
 
 # Set environment variables for RDS connection
-ENV DB_HOST your-rds-endpoint
+ENV DB_HOST snk-db.cl6bkeffvlim.ap-northeast-2.rds.amazonaws.com
 ENV DB_PORT 3306
-ENV DB_USER your-db-username
-ENV DB_PASS your-db-password
-ENV DB_NAME your-db-name
+ENV DB_USER naveen
+ENV DB_PASS naveen123
+ENV DB_NAME naveen
 
 # Enable Apache modules and configure PHP
 RUN a2enmod rewrite

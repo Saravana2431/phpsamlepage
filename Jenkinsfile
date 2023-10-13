@@ -8,7 +8,7 @@ node{
 	    
 		sh 'docker rm -f newcont'
 	}catch(error){
-		//  do nothing if there is an exception
+		//  do nothing if there is an except
 	}
 }
 	//remove container

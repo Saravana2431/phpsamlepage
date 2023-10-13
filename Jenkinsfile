@@ -11,7 +11,7 @@ node{
 		//  do nothing if there is an except
 	}
 }
-	//remove container
+	//remove
 	stage('Remove Previous Container'){
 	try{
 		sh 'docker rmi -f newimg'

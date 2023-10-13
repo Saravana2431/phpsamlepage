@@ -2,7 +2,7 @@ node{
    stage('SCM Checkout'){
      git 'https://github.com/Saravana2431/phpsamplepage.git'
    }
-   
+  //cmt 
    stage('Remove Previous Container'){
 	try{
 	    

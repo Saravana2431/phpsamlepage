@@ -10,7 +10,8 @@ node{
 	}catch(error){
 		//  do nothing if there is an exception
 	}
-}	
+}
+	//remove container
 	stage('Remove Previous Container'){
 	try{
 		sh 'docker rmi -f newimg'
